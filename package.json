@@ -1,0 +1,11 @@
+{
+   "name": "watcher",
+   "version": "0.0.1",
+   "description": "A hot reload watcher for laravel-swoole.",
+   "private": true,
+   "devDependencies": {
+       "chokidar": "^2.0.3",
+       "colors": "^1.2.5",
+       "is-running": "^2.1.0"
+   }
+}
