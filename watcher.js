@@ -5,7 +5,7 @@ let isRunning = require('is-running')
 
 // Define our watching parameters
 let basePath = process.cwd()
-let pidPath = process.cwd() + '/storage/logs/swoole_http.pid'
+let pidPath = basePath + '/storage/logs/swoole_http.pid'
 let pid = fs.readFileSync(pidPath, 'utf8')
 let ready = false
 
